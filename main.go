@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
-	"strconv"
+	//"strconv"   // imported but not used
 	"time"
 
 	"github.com/joho/godotenv"
@@ -23,7 +23,7 @@ type Config struct {
 
 // PocketItem represents a simplified Pocket save
 type PocketItem struct {
-	ItemID    string `json:"item_id"`
+	ItemID      string `json:"item_id"`
 	ResolvedURL string `json:"resolved_url"`
 	GivenTitle  string `json:"given_title"`
 }

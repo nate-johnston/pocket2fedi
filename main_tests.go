@@ -1,7 +1,7 @@
 package main
 
 import (
-	"encoding/json"
+	// "encoding/json"	// imported but not used
 	"net/http"
 	"net/http/httptest"
 	"os"
